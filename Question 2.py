@@ -41,11 +41,11 @@ while True:
         therest_difference_dict[key] = abs(weird_division(chosen_average_result_dict[key],target_value_dict[key]) -1)
        
         #If fail then add value to check
-        if chosen_difference_dict[key] > tolerance_dict[key] or therest_difference_dict[key] > tolerance_dict[key]:
-            check = check + 1
+        
 
 #################### My Answer ########################
-
+        if chosen_difference_dict[key] > tolerance_dict[key] or therest_difference_dict[key] > tolerance_dict[key]:
+            check = check + 1
 #######################################################
 
 
